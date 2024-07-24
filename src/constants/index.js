@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import project1 from "../assets/projects/Auth Library.png";
 import project2 from "../assets/projects/Task application.png";
-import project3 from "../assets/projects/Expense .png";
+import project3 from "../assets/projects/portfolio.png";
 import project4 from "../assets/projects/Hulu clone.png";
 
 const currentYear = new Date().getFullYear()
