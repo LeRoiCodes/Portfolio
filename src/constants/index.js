@@ -58,7 +58,7 @@ export const PROJECTS = [
     image: project6,
     description:
       "A web application for job posting for both employers and job seekers",
-    technologies: ["TailwindCSS", "Nextjs", "Openai"],
+    technologies: ["TailwindCSS", "React", "Nodejs", "MongoDB"],
   },
   {
     title: "Authentication Website",
