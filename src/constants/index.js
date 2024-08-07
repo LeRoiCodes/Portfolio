@@ -3,8 +3,8 @@ import project1 from "../assets/projects/Auth Library.png";
 import project2 from "../assets/projects/Task application.png";
 import project3 from "../assets/projects/portfolio.png";
 import project4 from "../assets/projects/Hulu clone.png";
-import project5 from "../assets/projects/leroitranslates.png";
-import project6 from "../assets/projects/jobzee.png";
+import project5 from "../assets/projects/Leroitranslates.png";
+import project6 from "../assets/projects/Jobzee.png";
 
 const currentYear = new Date().getFullYear()
 const numberOfYears =  currentYear- 2020
