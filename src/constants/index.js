@@ -3,6 +3,8 @@ import project1 from "../assets/projects/Auth Library.png";
 import project2 from "../assets/projects/Task application.png";
 import project3 from "../assets/projects/portfolio.png";
 import project4 from "../assets/projects/Hulu clone.png";
+import project5 from "../assets/projects/leroitranslates.png";
+import project6 from "../assets/projects/jobzee.png";
 
 const currentYear = new Date().getFullYear()
 const numberOfYears =  currentYear- 2020
@@ -52,6 +54,13 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: "Jobzee",
+    image: project6,
+    description:
+      "A web application for job posting for both employers and job seekers",
+    technologies: ["TailwindCSS", "Nextjs", "Openai"],
+  },
+  {
     title: "Authentication Website",
     image: project1,
     description:
@@ -79,6 +88,15 @@ export const PROJECTS = [
       "A simple clone of the homepage of hulu getting the movies from an api call.",
     technologies: ["TailwindCSS", "Nextjs",],
   },
+  {
+    title: "LeRoi Translates",
+    image: project5,
+    description:
+      "Uses Openai api to translate text into a language selected",
+    technologies: ["TailwindCSS", "Nextjs", "Openai"],
+  },
+  
+
 ];
 
 export const CONTACT = {
