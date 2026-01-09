@@ -5,6 +5,7 @@ import project3 from "../assets/projects/portfolio.png";
 import project4 from "../assets/projects/Hulu clone.png";
 import project5 from "../assets/projects/Leroitranslates.png";
 import project6 from "../assets/projects/Jobzee.png";
+import project7 from "../assets/projects/vivida.png"
 
 const currentYear = new Date().getFullYear()
 const numberOfYears =  currentYear- 2020
@@ -21,6 +22,20 @@ export const EXPERIENCES = [
     company: "Panoramic Synergy Enterprise",
     description: `In charge of implementing management systems and ISO standards such ISO 27000, ISO 20000 ISO 8583 as well as PCI DSS in client company also conducted vulnerabilty assessment and penetration testing in clients infrastructure`,
     technologies: ["Kali Linux", "Owasp ZAP", "Burp Suite", "Nmap", "Microsoft office"],
+  },
+  {
+    year: "2025 - Present",
+    role: "Backend Developer",
+    company: "Quic",
+    description: `Building Backend for an ai powered whatsapp finance application allowing using to perform all transactions on whatsapp`,
+    technologies: ["Nodejs", "Express", "Postgre", "Redis"],
+  },
+  {
+    year: "2024 - 2025",
+    role: "Team Lead Fullstack Developer",
+    company: "Vivida",
+    description: `Building an event management application, where users can plan events, get vendors, collaborate with others and also send out invites for events`,
+    technologies: ["Express", "Postgre", "Reactjs", "Nodejs", "SocketIO"],
   },
   {
     year: "2022 - 2024",
@@ -53,6 +68,13 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "Vivida",
+    image: project7,
+    description:
+      "Plan, Collaborate, and Celebrate Effortlessly. From small gatherings to grand events, our platform makes planning a breeze",
+    technologies: ["TailwindCSS", "React", "Nodejs", "MongoDB, socketIO"],
+  },
   {
     title: "Jobzee",
     image: project6,
