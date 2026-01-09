@@ -32,7 +32,7 @@ const Hero = () => {
                         <p className="my-2 max-w-xl font-light"> Download my curriculum vitae:</p>
                         <div className="flex gap-5 items-center mb-5 lg:mb-0">
                             <Button text={"VIEW RESUME"} link={"https://drive.google.com/file/d/110Qs_OJMTgCyNswy8tvDcqH3MGOJc8j3/view?usp=sharing"} target={"_blank"} />
-                            <Button text={"CONTACT ME"} link={"#contact"} target={""} />
+                            {/* <Button text={"CONTACT ME"} link={"#contact"} target={""} /> */}
                         </div>
                     </motion.div>
                 </div>
